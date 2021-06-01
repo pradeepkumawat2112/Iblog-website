@@ -1,0 +1,35 @@
+.post-img{
+    height:300px;
+    overflow: hidden;
+    
+}
+.post-img img{
+    width: 100%;
+}
+/* .blog-post-content{
+background-color: blue;
+} */
+.blog-post-content h1{
+   text-align: center;
+    }
+.row{
+  display: flex;
+
+ }
+ .more-post{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .blogpost-meta{
+     display: flex;
+     /* background-color: brown; */
+     justify-content: space-between;
+ }
+ .author-info{
+     margin:10px 0;
+ }
+ .author-info div{
+padding: 3px 0;
+font-family: var(--font2);
+ }

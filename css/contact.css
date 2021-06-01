@@ -1,0 +1,18 @@
+.contact-content{
+    height:100vh;
+    position:relative;
+    padding:8px;
+     /* display: flex; */
+     margin-top: 32px; 
+    }
+    .content::after{
+        content:"";
+        background-image: url(../img/second.jpg);
+        position: absolute;
+        width: 100% ;
+        height: inherit;
+        opacity: 0.14;
+        z-index: -1;
+    }
+
+   
